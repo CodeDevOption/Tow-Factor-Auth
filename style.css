@@ -1,0 +1,84 @@
+/* Google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+:root{
+    --Poppins: 'Poppins', sans-serif;
+    --Roboto: 'Roboto', sans-serif;
+}
+
+*>*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background: url('./assets/backgroundImg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#main-site{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.img-fluid{
+    width:80%;
+    height: 80%;
+}
+.text-align{
+    text-align: center;
+}
+.py-1{
+    padding: 1rem 0;
+}
+.py-2{
+    padding: 2rem 0;
+}
+.font-roboto{
+    font-family: var(--Roboto);
+}
+.font-poppins{
+    font-family: var(--Poppins);
+}
+.text-white{
+    color:#efefef;
+}
+.text-light{
+ color:#dee2e6;   
+}
+.link{
+    text-decoration: none;
+    color:#fca311
+}
+.glass{
+    max-width: 550px;
+    width: 100%;
+    padding: 65px 90px 45px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 10px 10px 80px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(5px);
+}
+
+.glass .title h1{
+    font-size: 35px;
+}
+.glass  form .Form-control{
+    width:80px;
+    padding: .3rem .1rem;
+    font-size: 25px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: var(--Poppins);
+}
+.glass  form .col .btn{
+    width: 90%;
+    padding: .6rem .1rem;
+    font-family: var(--Poppins);
+    background-color: #fca311;
+    color:#efefef;
+    border:none;
+}
+
